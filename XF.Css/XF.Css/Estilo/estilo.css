@@ -1,0 +1,31 @@
+﻿^ContentPage {
+    background-color: #D6D5C9;
+    padding: 20;
+}
+
+^Entry {
+    font-size: 25;
+    background-color: ghostwhite;
+    margin: 10 0;
+    color: #902923;
+}
+
+^Button {
+    font-size: 18;
+    color: #000000;
+    margin: 5 0;
+}
+
+    ^Button.primary {
+        background-color: #ff0000;
+        color: #808080;
+        font-size: 22;
+        margin: 15 0;
+    }
+
+#LoginForm {
+    background-color: #808080;
+    padding: 15;
+    border-radius: 5;
+    margin-top: 22
+}

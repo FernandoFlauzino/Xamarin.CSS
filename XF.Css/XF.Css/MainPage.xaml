@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.Css"
+             x:Class="XF.Css.MainPage">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/Estilo/estilo.css"></StyleSheet>
+    </ContentPage.Resources>
+
+    <StackLayout StyleId="LoginFrm">
+        <Entry Placeholder="User"></Entry>
+        <Entry Placeholder="Password" IsPassword="True"></Entry>
+        <Button Text="Login" StyleClass="primary"></Button>
+        <Button Text="Forgot Password"></Button>
+    </StackLayout>
+
+
+</ContentPage>
